@@ -10,15 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let defaults = UserDefaults.standard
+    let user = LoggedInUser(username: "Vic", isPremium: true, lastLogin: Date())
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let userEncoded = try! PropertyListEncoder().encode(user)
+        defaults.set(userEncoded, forKey: "lastUser")
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+
 
 
 }

@@ -17,6 +17,8 @@
 		14709F3A1F057A53002E5D2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14709F391F057A53002E5D2E /* Assets.xcassets */; };
 		14709F3D1F057A53002E5D2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14709F3B1F057A53002E5D2E /* LaunchScreen.storyboard */; };
 		14709F481F057A53002E5D2E /* Codeable_and_UserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14709F471F057A53002E5D2E /* Codeable_and_UserDefaultsTests.swift */; };
+		9E11134F1FABBB6000473CDB /* ReadingPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E11134E1FABBB6000473CDB /* ReadingPreferences.swift */; };
+		9E1113511FABC47900473CDB /* LoggedInUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1113501FABC47800473CDB /* LoggedInUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		14709F431F057A53002E5D2E /* Codeable and UserDefaultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Codeable and UserDefaultsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14709F471F057A53002E5D2E /* Codeable_and_UserDefaultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codeable_and_UserDefaultsTests.swift; sourceTree = "<group>"; };
 		14709F491F057A53002E5D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E11134E1FABBB6000473CDB /* ReadingPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReadingPreferences.swift; path = "Codeable and UserDefaultsTests/ReadingPreferences.swift"; sourceTree = SOURCE_ROOT; };
+		9E1113501FABC47800473CDB /* LoggedInUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				141BFD391F0D3F9700D4533B /* Cart.swift */,
 				141BFD3B1F0D3FA800D4533B /* CartStorageManager.swift */,
 				141BFD351F0D3F1700D4533B /* Supporting Files */,
+				9E11134E1FABBB6000473CDB /* ReadingPreferences.swift */,
+				9E1113501FABC47800473CDB /* LoggedInUser.swift */,
 			);
 			path = "Codeable and UserDefaults";
 			sourceTree = "<group>";
@@ -219,9 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				14709F351F057A53002E5D2E /* ViewController.swift in Sources */,
+				9E11134F1FABBB6000473CDB /* ReadingPreferences.swift in Sources */,
 				141BFD3C1F0D3FA800D4533B /* CartStorageManager.swift in Sources */,
 				141BFD381F0D3F8800D4533B /* CartItem.swift in Sources */,
 				14709F331F057A53002E5D2E /* AppDelegate.swift in Sources */,
+				9E1113511FABC47900473CDB /* LoggedInUser.swift in Sources */,
 				141BFD3A1F0D3F9700D4533B /* Cart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
